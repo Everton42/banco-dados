@@ -19,13 +19,13 @@ insert into aluno
 (nome, endereco, cidade, estado, email, ativo)
 values
 ('Carlos Magno', 'Av das Graças, 60', 'Jundiaí', 'SP', 'carlos@mail.com', 1),
-('Fernando Pery', 'Rua Julieta, 59', 'Jarinú', 'SP', 'fernando@mail.com', 0),
+('Fernando Pery', 'Rua Julieta, 59', 'Jarinu', 'SP', 'fernando@mail.com', 0),
 ('Reginaldo Souza', 'Rua Romeu, 79', 'Valinhos', 'SP', 'rsouza@mail.com', 1)
 go
 
 update aluno
 set cidade = 'Várzea Paulista'
-where cidade = 'Jarinú'
+where cidade = 'Jarinu'
 go
 
 alter table aluno

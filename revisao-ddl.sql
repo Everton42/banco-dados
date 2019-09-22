@@ -23,15 +23,15 @@ alter table veiculo
 drop column motor
 go
 
-create index marca_modelo_asc
+create index ix_marca_modelo_asc
 on veiculo(marca asc, modelo asc)
 go
 
-create index consulta_marca_modelo
+create index ix_ano_fabricacao_desc
 on veiculo(ano_fabricacao desc)
 go
 
-drop index marca_modelo_asc
+drop index ix_marca_modelo_asc
 on veiculo
 go
 
