@@ -61,5 +61,3 @@ go
 
 drop table #Produtos;  
 go
-
-declare @nome
